@@ -10,7 +10,7 @@ export type AboutUsProps = {
 const AboutUs: React.FC<AboutUsProps> = () => {
   return (
     <section className="w-full flex justify-center items-center mt-20 border-dashed py-20 border-t border-orange-200">
-      <div className="w-10/12 flex justify-center bg-orange-100 py-6 shadow rounded relative">
+      <div className="w-8/12 flex justify-center bg-orange-100 py-6 shadow rounded relative">
         <img
           className="shadow shadow-black"
           width="250"

@@ -13,22 +13,22 @@ const Categories: React.FC<CategoriesProps> = () => {
     <>
       <section className="w-full">
         <ul className="flex justify-evenly items-center h-48 font-semibold">
-          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-28 w-28 hover:bg-red-500 transition-all duration-300 ease-in-out">
-            <img width="55" src={chicken} alt="Chicken Logo" />
+          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-36 w-36 hover:bg-red-500 transition-all duration-300 ease-in-out">
+            <img width="85" src={chicken} alt="Chicken Logo" />
             <p>CHICKEN</p>
           </li>
-          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-28 w-28 hover:bg-red-500 transition-all duration-300 ease-in-out">
-            <img width="55" src={cow} alt="Cow Logo" />
+          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-36 w-36 hover:bg-red-500 transition-all duration-300 ease-in-out">
+            <img width="85" src={cow} alt="Cow Logo" />
             <p>BEAF MEAT</p>
           </li>
-          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-28 w-28 hover:bg-red-500 transition-all duration-300 ease-in-out">
-            <img width="55" src={pig} alt="Pig Logo" />
+          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-36 w-36 hover:bg-red-500 transition-all duration-300 ease-in-out">
+            <img width="85" src={pig} alt="Pig Logo" />
             <p>PORK</p>
           </li>
-          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-28 w-28 hover:bg-red-500 transition-all duration-300 ease-in-out">
+          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-36 w-36 hover:bg-red-500 transition-all duration-300 ease-in-out">
             <img
               className="transform scale-x-[-1]"
-              width="55"
+              width="85"
               src={goat}
               alt="Goat Logo"
             />

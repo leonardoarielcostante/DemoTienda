@@ -16,7 +16,7 @@ export type NavProps = {
 const Nav: React.FC<NavProps> = () => {
   return (
     <>
-      <nav className="flex bg-red-800 w-full">
+      <nav className="flex bg-red-800 w-full sticky top-0 z-10 border-b">
         <div>
           <img className="w-60 h-32 object-cover" src={logo} alt="Store Logo" />
         </div>

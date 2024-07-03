@@ -14,7 +14,7 @@ const Presentation: React.FC<PresentationProps> = () => {
           src={flesh}
           alt=""
         />
-        <p className="absolute text-white text-8xl font-bold w-3/4">
+        <p className="absolute left-20 text-white text-9xl font-bold w-1/2">
           THE FINEST MEAT MARKET
         </p>
       </div>
