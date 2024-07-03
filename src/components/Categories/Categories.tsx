@@ -1,5 +1,8 @@
-"use client"
 import React from "react"
+import chicken from "../../assets/chicken.svg"
+import cow from "../../assets/cow.svg"
+import pig from "../../assets/pig.svg"
+import goat from "../../assets/goat.svg"
 
 export type CategoriesProps = {
   // types...
@@ -8,9 +11,29 @@ export type CategoriesProps = {
 const Categories: React.FC<CategoriesProps> = () => {
   return (
     <>
-      <section>
-        <ul>
-          <li></li>
+      <section className="w-full">
+        <ul className="flex justify-evenly items-center h-48 font-semibold">
+          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-28 w-28 hover:bg-red-500 transition-all duration-300 ease-in-out">
+            <img width="55" src={chicken} alt="Chicken Logo" />
+            <p>CHICKEN</p>
+          </li>
+          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-28 w-28 hover:bg-red-500 transition-all duration-300 ease-in-out">
+            <img width="55" src={cow} alt="Cow Logo" />
+            <p>BEAF MEAT</p>
+          </li>
+          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-28 w-28 hover:bg-red-500 transition-all duration-300 ease-in-out">
+            <img width="55" src={pig} alt="Pig Logo" />
+            <p>PORK</p>
+          </li>
+          <li className="flex flex-col justify-center items-center rounded-full bg-orange-100 h-28 w-28 hover:bg-red-500 transition-all duration-300 ease-in-out">
+            <img
+              className="transform scale-x-[-1]"
+              width="55"
+              src={goat}
+              alt="Goat Logo"
+            />
+            <p>GOAT</p>
+          </li>
         </ul>
       </section>
     </>
